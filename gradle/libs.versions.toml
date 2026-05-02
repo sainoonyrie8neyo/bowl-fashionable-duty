@@ -1,6 +1,6 @@
 [versions]
 altitude = "2.1.1"
-suspicious = "1.6.7"
+suspicious = "3.4.3"
 
 [libraries]
 altitude = { module = "io.ktor:ktor-server-call-logging", version.ref = "altitude" }
