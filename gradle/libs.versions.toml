@@ -1,0 +1,7 @@
+[versions]
+altitude = "2.1.1"
+suspicious = "1.6.7"
+
+[libraries]
+altitude = { module = "io.ktor:ktor-server-call-logging", version.ref = "altitude" }
+suspicious = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "suspicious" }
